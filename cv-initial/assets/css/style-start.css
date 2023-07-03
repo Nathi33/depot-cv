@@ -13,9 +13,26 @@
 body {
   font-family: Raleway, sans-serif;
   font-size: 1em;
-  width: auto;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid black;
 }
 
-h1 {
+h1,
+h2 {
   font-family: Lato, sans-serif;
+}
+
+header {
+  background-color: #782221;
+  width: 1160px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+p,
+h1,
+h2 {
+  color: white;
 }
