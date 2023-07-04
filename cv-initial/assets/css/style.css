@@ -1,4 +1,4 @@
-img {
+#presentation img {
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -7,7 +7,7 @@ img {
   margin-top: 30px;
 }
 
-img:hover {
+#presentation img:hover {
   cursor: zoom-in;
 }
 
@@ -65,4 +65,16 @@ h3 {
 
 #selection:hover {
   border-right: 10px solid #782221;
+}
+
+#logo img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#logo img:hover {
+  opacity: 0.5;
 }
