@@ -20,7 +20,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: Lato, sans-serif;
 }
 
@@ -41,4 +42,14 @@ main {
   width: 1160px;
   display: flex;
   border-right: 1px solid black;
+}
+
+footer {
+  background-color: #782221;
+  width: 1160px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
